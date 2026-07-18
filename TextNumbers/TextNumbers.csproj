@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<PackageId>TextNumbers</PackageId>
+	<Authors>Ork-Khan</Authors>
+	<Description>Converts numbers to Azerbaijani.</Description>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<RepositoryUrl>https://github.com/Ork-Khan/NumberToText</RepositoryUrl>
+	<PackageTags>azerbaijani;number-to-words;text-numbers</PackageTags>
+  </PropertyGroup>
+
+</Project>
