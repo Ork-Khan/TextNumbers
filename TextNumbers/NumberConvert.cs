@@ -76,7 +76,7 @@ namespace TextNumbers
             if(decimalPart != null)
                 result = string.Join(" ",
                     result,
-                    "tam",
+                    Constants.DecimalWord,
                     decimalPart
                 );
             

@@ -6,7 +6,7 @@ namespace TextNumbers
 {
     public static class Constants
     {
-        public static Dictionary<int, string> Digits = new()
+        public static Dictionary<int, string> Digits = new Dictionary<int, string>()
         {
             {0, "sıfır"},
             {1, "bir"},
@@ -20,7 +20,7 @@ namespace TextNumbers
             {9, "doqquz"},
         };
 
-        public static Dictionary<int, string> DecimalDigits = new()
+        public static Dictionary<int, string> DecimalDigits = new Dictionary<int, string>()
         {
             {1, "on"},
             {2, "yirmi"},
@@ -33,17 +33,37 @@ namespace TextNumbers
             {9, "doxsan"},            
         };
 
-        public static Dictionary<int, string> Powers = new()
+        public static Dictionary<int, string> Powers = new Dictionary<int, string>()
         {
             {2, "yüz"},
             {3, "min"},
             {6, "milyon"},
             {9, "milyard"},
+            {12, "trilyon"},
+
+            {15, "katrilyon"},
+            {18, "kentilyon"},
+            {21, "sekstilyon"},
+            {24, "septilyon"},
+            {27, "oktilyon"},
+            {30, "nonilyon"},
+            {33, "desilyon"},
+            {36, "undesilyon"},
+            {39, "dodesilyon"},
+            {42, "tredesilyon"},
+            {45, "katordesilyon"},
+            {48, "kendesilyon"},
+            {51, "seksdesilyon"},
+            {54, "septendesilyon"},
+            {57, "oktodesilyon"},
+            {60, "novemdesilyon"},
+            {63, "vigintilyon"},
         };
 
         public static string Negative = "mənfi";
+        public static string DecimalWord = "tam";
 
-        public static Dictionary<int, string> DigitSuffix = new()
+        public static Dictionary<int, string> DigitSuffix = new Dictionary<int, string>()
         {
             {1,"də"},
             {2,"də"},
@@ -57,7 +77,7 @@ namespace TextNumbers
             {9,"da"},
         };
 
-        public static Dictionary<int, string> DecimalSuffix = new()
+        public static Dictionary<int, string> DecimalSuffix = new Dictionary<int, string>()
         {
             {1,"da"},
             {3,"da"},
@@ -71,7 +91,7 @@ namespace TextNumbers
             {8,"də"},
         };
 
-        public static Dictionary<int, string> PowerSuffix = new()
+        public static Dictionary<int, string> PowerSuffix = new Dictionary<int, string>()
         {
             {2, "də"},
             {3, "də"},
