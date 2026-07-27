@@ -94,6 +94,7 @@ namespace TextNumbers.Test
         [Theory]
         [InlineData(-104.89, "mənfi yüz dört tam yüzdə səksən doqquz")]
         [InlineData(-32.0091, "mənfi otuz iki tam on mində doxsan bir")]
+        [InlineData(-3012.2001, "mənfi üç min on iki tam on mində iki min bir")]
         [InlineData(-3.333, "mənfi üç tam mində üç yüz otuz üç")]
         [InlineData(-0.9, "mənfi sıfır tam onda doqquz")]
         [InlineData(-0.0, "sıfır")] //edge case negative 0 with zero fraction is just zero
